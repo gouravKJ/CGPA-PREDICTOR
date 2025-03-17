@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSSUT CGPA Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: black;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: wavy;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .block {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            min-width: 250px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>VSSUT CGPA PREDICTOR</h1>
+    
+    <div class="container" >
+        <div class="block"><h1>THEORY PAPERS</h1>
+            <h2>Math</h2>
+            <input type="number" placeholder="MID SEM MARKS">
+            <input type="number" placeholder="END SEM MARKS">
+            <input type="number" placeholder="PRACTICAL SEM MARKS">
+            
+            <h2>Mechanics</h2>
+            <input type="number" placeholder="MID SEM MARKS">
+            <input type="number" placeholder="END SEM MARKS">
+            <input type="number" placeholder="PRACTICAL SEM MARKS">
+            
+            <h2>UHV</h2>
+            <input type="number" placeholder="MID SEM MARKS">
+            <input type="number" placeholder="END SEM MARKS">
+            <input type="number" placeholder="PRACTICAL SEM MARKS">
+            
+            <h2>Chem</h2>
+            <input type="number" placeholder="MID SEM MARKS">
+            <input type="number" placeholder="END SEM MARKS">
+            <input type="number" placeholder="PRACTICAL SEM MARKS">
+            
+            <h2>BE</h2>
+            <input type="number" placeholder="MID SEM MARKS">
+            <input type="number" placeholder="END SEM MARKS">
+            <input type="number" placeholder="PRACTICAL SEM MARKS">
+            
+            <h2>BCE</h2>
+            <input type="number" placeholder="MID SEM MARKS">
+            <input type="number" placeholder="END SEM MARKS">
+            <input type="number" placeholder="PRACTICAL SEM MARKS">
+        </div>
+
+        <div class="block"><H1>SESSIONAL PAPERS</H1>
+            <h2>EGD</h2>
+            <input type="text" placeholder="PRACTICAL SEM GRADE">
+            
+            <h2>WDM</h2>
+            <input type="text" placeholder="PRACTICAL SEM GRADE">
+            
+            <h2>ChemL</h2>
+            <input type="text" placeholder="PRACTICAL SEM GRADE">
+            
+            <h2>BEL</h2>
+            <input type="text" placeholder="PRACTICAL SEM GRADE">
+        </div>
+    
+    <p id="OVERALL CGPA"></p>
+    </div>
+</body>
+<script src="cgpa.js"></script>
+</html>
